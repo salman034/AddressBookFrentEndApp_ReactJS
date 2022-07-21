@@ -1,0 +1,229 @@
+/* UC1 */
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    width: 80%;
+}
+
+.logo-content-img {
+    border: solid 0px #42515f;
+}
+
+.addr-text {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+}
+
+.addr-book {
+    color: #42515f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* UC2 */
+.form-content{
+     padding-top: 40px;
+     min-height: calc(100%-80px);
+     background-color: #f7f7f7;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+}
+
+.form{
+    width: 55%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #008CFF 0% 0% no-repeat padding-box;
+    height: 78px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.form-head{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    text-transform: uppercase;
+    font: normal normal normal 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background:0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 10px;
+    
+}
+
+.form-logo-content{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 20%;
+}
+
+.row-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-bottom: 40px;
+}
+
+.name-content{
+   align-items: center;
+}
+
+.row-content-exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right:  140px; 
+    padding-left:  140px; 
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.oneRow-content{
+    display: flex;
+    padding-right:  20px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: px solid green;
+}
+
+.text{
+    font-size:16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+}
+
+.label{
+    text-align: left;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.input{
+    width: 100%;
+    padding: 12px;
+    margin-right: 15px;
+    border-radius: 4px;
+    resize: vertical;
+    border: 1px solid #BDBDBD;
+    opacity: 1;
+}
+
+error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+.select-input{
+    width: 100%;
+    padding: 12px;
+    margin-right: 15px;
+    border-radius: 4px;
+    resize: vertical;
+    border: 1px solid #BDBDBD;
+    opacity: 1;
+}
+
+.add-reset{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.button{
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+
+.addButton{
+    background-color: #f5f5f5;
+    margin-right: 30px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.addButton:hover{
+    background-color: #008CFF;
+    color: black;
+    transform: scale(1.2);
+}
+
+.resetButton{
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.resetButton:hover{
+    background-color: #969696;
+    color: black;
+    transform: scale(1.2);
+}
